@@ -1,0 +1,10 @@
+package edu.cibertec.drools
+
+import edu.cibertec.drools.bean.Account
+
+rule "Regla prueba"
+	when
+		Account()
+	then
+		System.out.println("Regla Ejecutada");
+end
