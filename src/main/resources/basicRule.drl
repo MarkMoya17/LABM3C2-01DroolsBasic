@@ -1,10 +1,23 @@
 package edu.cibertec.drools
 
-import edu.cibertec.drools.bean.Account
+import edu.cibertec.drools.bean.*
 
-rule "Regla prueba"
+rule "R1:Regla balance < 100"
+dialect "mvel"
 	when
-		Account()
+		$account: Account(balance < 100)
 	then
-		System.out.println("Regla Ejecutada");
+		System.out.println("R1:" + $account.id
+			+ " con balance < 100");
+end
+
+rule "R2:Regla balance >= 100"
+dialect "mvel"
+	when
+		$account: Account(balance >= 100)
+		$bonus: Bonus(type == "GOAL")
+	then
+		System.out.println("R2:" + $account.id
+			+ " con balance >= 100");
+		$account.balance = $account.balance + $bonus.amount;
 end

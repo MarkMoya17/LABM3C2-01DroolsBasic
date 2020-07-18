@@ -1,2 +1,15 @@
 19:52:33,507 [main      ] INFO  (drools.TestBasicRule:17) Reglas Leidas!
 19:54:21,103 [main      ] INFO  (drools.TestBasicRule:19) Reglas Leidas!
+20:45:32,598 [main      ] INFO  (drools.TestBasicRule:19) Reglas Leidas!
+20:53:00,029 [main      ] INFO  (drools.TestBasicRule:21) Reglas Leidas!
+20:55:17,137 [main      ] INFO  (drools.TestBasicRule:21) Reglas Leidas!
+20:58:22,989 [main      ] INFO  (drools.TestBasicRule:21) Reglas Leidas!
+20:58:23,015 [main      ] INFO  (drools.TestBasicRule:33) Account [id=001, balance=80]
+20:58:23,015 [main      ] INFO  (drools.TestBasicRule:34) Account [id=002, balance=500]
+20:58:23,015 [main      ] INFO  (drools.TestBasicRule:35) Account [id=003, balance=200]
+20:58:23,017 [main      ] INFO  (drools.TestBasicRule:36) Account [id=004, balance=150]
+20:59:20,373 [main      ] INFO  (drools.TestBasicRule:21) Reglas Leidas!
+20:59:20,401 [main      ] INFO  (drools.TestBasicRule:34) Account [id=001, balance=80]
+20:59:20,401 [main      ] INFO  (drools.TestBasicRule:35) Account [id=002, balance=540]
+20:59:20,402 [main      ] INFO  (drools.TestBasicRule:36) Account [id=003, balance=240]
+20:59:20,402 [main      ] INFO  (drools.TestBasicRule:37) Account [id=004, balance=190]
